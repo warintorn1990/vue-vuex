@@ -6,7 +6,8 @@
     export default {
         computed:{
             counter(){
-                return this.$store.state.couter;
+                // return this.$store.state.couter * 2;
+                return this.$store.getters.doubleCounter;
             }
         }
         // props: ['counter']

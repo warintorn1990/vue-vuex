@@ -5,6 +5,8 @@
                 <h1>Vuex</h1>
                 <app-result></app-result>
                 <hr>
+                <app-anoter-result></app-anoter-result>
+                <hr>
                 <app-counter></app-counter>
             </div>
         </div>
@@ -14,6 +16,7 @@
 <script>
     import Counter from './components/Counter.vue';
     import Result from './components/Result.vue';
+    import AnoterResult from './components/AnoterResult.vue';
 
     export default {
         data() {
@@ -24,6 +27,7 @@
         components: {
             appCounter: Counter,
             appResult: Result,
+            appAnoterResult: AnoterResult
         }
     }
 </script>
